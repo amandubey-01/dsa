@@ -60,3 +60,5 @@ var threeSum = function(nums) {
     }
     return res;
 }; 
+// Time complexity : sorting - o(nlogn), looping o(n^2) so o(n^2);
+// space complexity is o(1)
