@@ -53,3 +53,12 @@ var characterReplacement = function(s,k){
 }
 
 console.log(characterReplacement("AABABBA", 2))
+
+/*
+Time Complexity: O(n)
+Because each pointer (l and r) moves forward at most n times.
+
+Space Complexity: O(1)
+Because the frequency array size is fixed (26).
+
+*/
