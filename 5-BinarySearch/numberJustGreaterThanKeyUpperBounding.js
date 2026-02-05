@@ -4,7 +4,7 @@ const k = 4;
 var numJustGreaterThanK = function(arr,k){
    let s = 0;
    let e = arr.length -1;
-   ans = -1;
+   let ans = -1;
    
    while(s<=e){
     let mid = Math.floor((s+e)/2);
